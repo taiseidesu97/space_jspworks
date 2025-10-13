@@ -1,0 +1,26 @@
+package practis;
+
+public class Book {
+	int bookNumber;
+    String bookTitle;
+
+    Book(int bookNumber, String bookTitle) {
+        this.bookNumber = bookNumber;
+        this.bookTitle = bookTitle;
+    }
+        
+	@Override
+	public String toString() {
+		return bookNumber + ", " + bookTitle;
+	}
+	
+    public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    		String name = new String("강태성");
+    	    Book b1 = new Book(1, "자바의 정석");
+    	    System.out.println(name);
+		System.out.println(b1);
+		    
+	}
+}
+    

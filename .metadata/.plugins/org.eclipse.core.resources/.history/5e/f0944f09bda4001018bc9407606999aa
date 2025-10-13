@@ -1,0 +1,23 @@
+package map;
+class Person {
+    String name;
+    int age;
+
+    public Person(String name, int age){
+        this.name = name;
+        this.age = age;
+    }
+
+    // toString 재정의
+    public String toString(){
+        return "이름: " + name + ", 나이: " + age;
+    }
+}
+
+public class test22 {
+    public static void main(String[] args) {
+        Person p = new Person("철수", 20);
+        System.out.println(p); // 자동으로 p.toString() 호출
+    }
+}
+

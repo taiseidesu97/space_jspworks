@@ -1,0 +1,20 @@
+package practis;
+
+public class Book {
+	int bookNumber;
+    String bookTitle;
+
+    Book(int bookNumber, String bookTitle) {
+        this.bookNumber = bookNumber;
+        this.bookTitle = bookTitle;
+        
+        
+	
+
+}
+    public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    	Book b1 = new Book(1, "자바의 정석");
+		System.out.println(b1);
+		    
+	}
